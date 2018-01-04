@@ -1,9 +1,14 @@
-/// <reference path="./app.d.ts"/>
+/// <reference path="../node_modules/@types/rx/index.d.ts"/>
 
 'use strict'
 
 //import { ProbaKlasa, DerivedProba, StaticClass } from './app';
 import * as mojModul from './app';
+//import { Observable } from 'rxjs';
+import * as RxJs from 'rxjs';
+
+
+
 /*
 let mojaKlasa=new ProbaKlasa();
 let derProba=new DerivedProba();
