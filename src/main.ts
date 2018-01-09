@@ -40,12 +40,13 @@ let observer = {
 };
 observable
 .map((data)=>{
+        console.log("From map: "+ data);
         return data;
     }
 )
-.filter((value)=>{
+/*.filter((value)=>{
     if((value%2)==0) return true
-})
+})*/
 .subscribe(observer);
 
 /*let subject=new RxJs.Subject();
