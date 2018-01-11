@@ -29,7 +29,7 @@ subscribe(
     ()=>console.log("Completed...")
 );*/
 
-let observable = RxJs.Observable.interval(1000);
+let observable = RxJs.Observable.interval(2000);
 let observer = {
     next: (value)=>{
         console.log(value);
