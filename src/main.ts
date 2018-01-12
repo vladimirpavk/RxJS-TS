@@ -1,4 +1,5 @@
-'use strict'
+console.log("main.js");
+
 import { Subject } from 'rxjs/Rx';
 import { queue } from 'rxjs/scheduler/queue';
 

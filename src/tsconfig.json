@@ -3,18 +3,19 @@
       "target": "es2015",
       "module": "system",
       "moduleResolution": "node",
-      "sourceMap": true,
+      //"sourceMap": true,
       "emitDecoratorMetadata": true,
       "experimentalDecorators": true,
       "removeComments": false,
-      "noImplicitAny": false,
-      "declaration": true
+      "noImplicitAny": false
+      //"declaration": true
     },
     "exclude": [
         "node_modules"
     ],
     "files": [
       "main",
-      "app"
+      "app",
+      "minimain"
     ]
   }
