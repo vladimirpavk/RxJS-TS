@@ -1,13 +1,13 @@
 <head>
-    <script src="https://unpkg.com/systemjs@0.20.19/dist/system-production.js"></script>
-    <script type="text/javascript" src="minimain.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/systemjs@0.20.19/dist/system-production.js"></script>
+    <!--<script type="text/javascript" src="minimain.js"></script>-->
     <script type="text/javascript" src="pure.js"></script>
 
     <title>Moja TypeScript proba</title>
 </head>
 <body>
     <script>
-        SystemJS.import('./minimain.js').then((msg)=>console.log(msg));
+        System.import('./minimain.js').then((msg)=>console.log(msg));
     </script>
     <button id="dugme1">Klikni me</button>
 </body>
